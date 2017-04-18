@@ -20,6 +20,9 @@ app.use(express.static(__dirname + '/public'));
 app.get('/testhttp', function(req, res){
 	console.log("req.headers.$wssp" + req.headers.$wssp);
 	console.log("req.headers" + req.headers);
+	if(req.headers.$wssp==80){
+		res.redirect("https://chl-node-8080.mybluemix.net/testhttp");
+	}
 	return res.json( {
       		'output': {
         		'text': 'hahahahahaha'
