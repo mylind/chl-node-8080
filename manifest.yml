@@ -7,3 +7,4 @@ applications:
   host: chl-node-8080
   disk_quota: 1024M
   route: chl-node-8080.mybluemix.net/haha
+  buildpack: sdk-for-nodejs
