@@ -6,4 +6,4 @@ applications:
   name: chl-node-8080
   host: chl-node-8080
   disk_quota: 1024M
-  buildpack: https://codon-buildpacks.s3.amazonaws.com/buildpacks/heroku/emberjs.tgz
+  route: chl-node-8080.mybluemix.net/haha
