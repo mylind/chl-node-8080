@@ -2,10 +2,9 @@ applications:
 - path: .
   memory: 256M
   instances: 1
-  domain: mybluemix.net
   name: chl-node-8080
-  host: chl-node-8080
   disk_quota: 1024M
   routes: 
-  - route: www.chl-node-80800.mybluemix.net/haha
+  - route: chl-node-80800.mybluemix.net/haha
+  - route: chl-node-80800.mybluemix.net
   buildpack: sdk-for-nodejs
