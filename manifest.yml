@@ -6,3 +6,4 @@ applications:
   name: chl-node-8080
   host: chl-node-8080
   disk_quota: 1024M
+  buildpack: https://github.com/heroku/heroku-buildpack-emberjs
