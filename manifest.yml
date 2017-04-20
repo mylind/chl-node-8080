@@ -8,3 +8,5 @@ applications:
   - route: chl-node-80800.mybluemix.net/haha
   - route: chl-node-80800.mybluemix.net
   buildpack: sdk-for-nodejs
+  env:
+    NODE_MODULES_CACHE: false
